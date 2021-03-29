@@ -143,3 +143,34 @@ mvnw.cmd clean
  ```bash
 test.bat
  ```
+
+## Estrutura de arquivos
+
+driver
+   |-- chromedriver
+mvnw
+mvnw.cmd
+pom.xml
+src
+   |-- main
+   |   |-- java
+   |   |   |-- io
+   |   |   |   |-- cucumber
+   |   |   |   |   |-- danilo
+   |   |   |   |   |   |-- ValidadorCpf.java
+   |-- test
+   |   |-- java
+   |   |   |-- io
+   |   |   |   |-- cucumber
+   |   |   |   |   |-- .DS_Store
+   |   |   |   |   |-- danilo
+   |   |   |   |   |   |-- RunCucumberTest.java
+   |   |   |   |   |   |-- ValidarCpfStep.java
+   |   |-- resources
+   |   |   |-- io
+   |   |   |   |-- cucumber
+   |   |   |   |   |-- danilo
+   |   |   |   |   |   |-- .gitkeep
+   |   |   |   |   |   |-- validadorCpf.feature
+test.bat
+test.sh
