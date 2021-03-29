@@ -114,6 +114,7 @@ cd turma-accenture-java-cucumber
 - Configurando selenium em seu computador
 Fazer o download do Chrome Webdriver e colocar o arquivo descompactado dentro da pasta driver na rapiz do projeto:<br>
 https://chromedriver.chromium.org/downloads<br>
+
 <b>Exemplo:</b><br>
  ```bash
 cd driver
