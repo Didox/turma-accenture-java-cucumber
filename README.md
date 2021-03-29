@@ -92,6 +92,7 @@ Então devo ver o destaque em "Nosso propósito"<br>
 Exemplo: http://localhost:8080 <br>
 Link do repositório: https://github.com/Didox/turma-accenture-bdd-tdd-java <br>
 
+--------------------------------------------------------------------
 
 ## Tecnologias utilizadas
 :heavy_check_mark: <b>Java</b><br>
@@ -106,6 +107,7 @@ Framework responsável por traduzir uma linguagem humana em código Java<br>
 :heavy_check_mark: <b>Selenium</b><br>
 Framework responsável por fazer a integração do código java com a linguagem Gherkin(Cucumber) abrindo o browser fazendo o teste de comportamento<br>
 
+--------------------------------------------------------------------
 ## Como utilizar
 ### Pré requisitos
 - Instalar o java:
@@ -159,6 +161,7 @@ mvnw.cmd clean
 test.bat
  ```
 
+--------------------------------------------------------------------
 ## Estrutura de arquivos
 <pre>
   driver <br>
