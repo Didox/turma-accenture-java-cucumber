@@ -88,7 +88,7 @@ Então devo ver o destaque em "Nosso propósito"<br>
 
 --------------------------------------------------------------------
 ## Dependencias
-- Projeto Java do repo abaixo rodando na porta 8080
+- Projeto Java do repo abaixo rodando na porta 8080<br>
 Exemplo: http://localhost:8080 <br>
 Link do repositório: https://github.com/Didox/turma-accenture-bdd-tdd-java <br>
 
