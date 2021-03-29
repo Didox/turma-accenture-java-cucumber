@@ -106,6 +106,7 @@ Framework responsável por fazer a integração do código java com a linguagem 
 https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR
 - Instalar jdk
 https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html
+- Verificar se o JAVA_HOME está configurado em seu computador
 
 
 
