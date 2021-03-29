@@ -98,7 +98,7 @@ Gerenciador de dependências para o Java<br>
 Framework responsável por traduzir uma linguagem humana em código Java<br>
 
 :heavy_check_mark: <b>Selenium</b><br>
-Framework responsável por fazer a integração do código java com a linguagem Gutking(Cucumber) abrindo o browser fazendo o teste de comportamento<br>
+Framework responsável por fazer a integração do código java com a linguagem Gherkin(Cucumber) abrindo o browser fazendo o teste de comportamento<br>
 
 ## Como utilizar
 - Clone do projeto
@@ -111,6 +111,18 @@ git clone https://github.com/Didox/turma-accenture-java-cucumber.git
 cd turma-accenture-java-cucumber
  ```
 
+- Configurando selenium em seu computador
+Fazer o download do Chrome Webdriver e colocar o arquivo descompactado dentro da pasta driver na rapiz do projeto:<br>
+https://chromedriver.chromium.org/downloads<br>
+<b>Exemplo:</b><br>
+ ```bash
+cd driver
+curl https://chromedriver.storage.googleapis.com/89.0.4389.23/chromedriver_linux64.zip
+unzip chromedriver_linux64.zip
+rm -rf chromedriver_linux64.zip
+cd ../driver
+ ```
+
 - Limpando e validando maven Unix
  ```bash
 ./mvnw clean
@@ -119,4 +131,14 @@ cd turma-accenture-java-cucumber
 - Limpando e validando maven Windows
  ```bash
 mvnw.cmd clean
+ ```
+
+- Executando teste no Unix
+ ```bash
+./test.sh
+ ```
+
+- Executando teste no Windows
+ ```bash
+test.bat
  ```
