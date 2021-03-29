@@ -78,4 +78,5 @@ dado que eu estou no site da accenture<br>
 e clico no menu sobre a accenture<br>
 e clico no item do menu sobre a accenture<br>
 Então devo ver o destaque em "Nosso propósito"<br>
+
 --------------------------------------------------------------------
