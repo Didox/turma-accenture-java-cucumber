@@ -101,6 +101,14 @@ Framework responsável por traduzir uma linguagem humana em código Java<br>
 Framework responsável por fazer a integração do código java com a linguagem Gherkin(Cucumber) abrindo o browser fazendo o teste de comportamento<br>
 
 ## Como utilizar
+### Pré requisitos
+- Instalar o java:
+https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR
+- Instalar jdk
+https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html
+
+
+
 - Clone do projeto
  ```bash
 git clone https://github.com/Didox/turma-accenture-java-cucumber.git
