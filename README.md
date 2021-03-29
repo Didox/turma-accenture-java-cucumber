@@ -87,3 +87,18 @@ e clico no item do menu sobre a accenture<br>
 Então devo ver o destaque em "Nosso propósito"<br>
 
 --------------------------------------------------------------------
+## Tecnologias utilizadas
+:heavy_check_mark: Java
+Linguagem de programação para desenvolvimento da aplicação<br>
+
+:heavy_check_mark: Maven
+Gerenciador de dependências para o Java<br>
+
+:heavy_check_mark: Cucumber<br>
+Framework responsável por traduzir uma linguagem humana em código Java
+
+:heavy_check_mark: Selenium
+Framework responsável por fazer a integração do código java com a linguagem Gutking(Cucumber) abrindo o browser fazendo o teste de comportamento
+
+
+
