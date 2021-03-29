@@ -87,6 +87,12 @@ e clico no item do menu sobre a accenture<br>
 Então devo ver o destaque em "Nosso propósito"<br>
 
 --------------------------------------------------------------------
+## Dependencias
+- Projeto Java do repo abaixo rodando na porta 8080
+Exemplo: http://localhost:8080 <br>
+Link do repositório: https://github.com/Didox/turma-accenture-bdd-tdd-java <br>
+
+
 ## Tecnologias utilizadas
 :heavy_check_mark: <b>Java</b><br>
 Linguagem de programação para desenvolvimento da aplicação<br>
