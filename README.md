@@ -1,7 +1,6 @@
 # Descrição do desafio
---------------------------------------------------------------------
-## Criar uma aplicação Selenium com os seguintes casos de teste
-## Caso de teste 1
+### Criar uma aplicação Selenium com os seguintes casos de teste
+### Caso de teste 1
 Acessar o site da accenture e aceitar os cookies do LGPD<br>
 
 <b>Cenário</b>: Aceitar o cookie LGPD<br>
@@ -19,7 +18,7 @@ e devo ver "Cookies Analíticos de Primeira Parte"<br>
 e devo ver "Cookies de Desempenho e Cookies Funcionais"<br>
 e devo ver "Cookies de Publicidade e Redes Sociais"<br>
 
-## Caso de teste 2
+### Caso de teste 2
 Acessar o site da accenture a mostrar a lista de serviços<br>
 
 <b>Cenário</b>: listar serviços da Accenture<br>
@@ -55,7 +54,7 @@ e clico no menu serviços<br>
 e clico no item do menu cloud<br>
 Então devo encontrar o título "Serviços de Cloud"<br>
 
-## Caso de teste
+### Caso de teste
 Acessar a lista de carreiras da accenture<br>
 
 <b>Cenário</b>: Acessar o item de vagas de tecnologia<br>
@@ -70,7 +69,7 @@ e digito no campo de busca "desenvolvedor"<br>
 e clico no botão procurar<br>
 Então devo encontrar vagas para programadores<br>
 
-## Caso de teste
+### Caso de teste
 Sobre a accenture<br>
 
 <b>Cenário</b>: Ver as características da accenture<br>
