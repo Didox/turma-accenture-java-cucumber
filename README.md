@@ -105,3 +105,18 @@ Framework responsável por fazer a integração do código java com a linguagem 
  ```bash
 git clone https://github.com/Didox/turma-accenture-java-cucumber.git
  ```
+
+- Entrando na pasta do projeto
+ ```bash
+cd turma-accenture-java-cucumber
+ ```
+
+- Limpando e validando maven Unix
+ ```bash
+./mvnw clean
+ ```
+ 
+- Limpando e validando maven Windows
+ ```bash
+mvnw.cmd clean
+ ```
