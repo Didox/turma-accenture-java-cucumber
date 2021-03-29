@@ -145,31 +145,32 @@ test.bat
  ```
 
 ## Estrutura de arquivos
-
-driver <br>
-&nbsp;&nbsp;|-- chromedriver<br>
-mvnw<br>
-mvnw.cmd<br>
-pom.xml<br>
-src<br>
-&nbsp;|-- main<br>
-&nbsp;|&nbsp;|-- java<br>
-&nbsp;|&nbsp;|&nbsp;|-- io<br>
-&nbsp;|&nbsp;|&nbsp;|&nbsp;|-- cucumber<br>
-&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|-- danilo<br>
-&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|-- ValidadorCpf.java<br>
-&nbsp;|-- test<br>
-&nbsp;|&nbsp;|-- java<br>
-&nbsp;|&nbsp;|&nbsp;|-- io<br>
-&nbsp;|&nbsp;|&nbsp;|&nbsp;|-- cucumber<br>
-&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|-- danilo<br>
-&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|-- RunCucumberTest.java<br>
-&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|-- ValidarCpfStep.java<br>
-&nbsp;|&nbsp;|-- resources<br>
-&nbsp;|&nbsp;|&nbsp;|-- io<br>
-&nbsp;|&nbsp;|&nbsp;|&nbsp;|-- cucumber<br>
-&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|-- danilo<br>
-&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|-- .gitkeep<br>
-&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|-- validadorCpf.feature<br>
-test.bat<br>
-test.sh<br>
+<pre>
+  driver <br>
+      |-- chromedriver<br>
+  mvnw<br>
+  mvnw.cmd<br>
+  pom.xml<br>
+  src<br>
+    |-- main<br>
+    |  |-- java<br>
+    |  |  |-- io<br>
+    |  |  |  |-- cucumber<br>
+    |  |  |  |  |-- danilo<br>
+    |  |  |  |  |  |-- ValidadorCpf.java<br>
+    |-- test<br>
+    |  |-- java<br>
+    |  |  |-- io<br>
+    |  |  |  |-- cucumber<br>
+    |  |  |  |  |-- danilo<br>
+    |  |  |  |  |  |-- RunCucumberTest.java<br>
+    |  |  |  |  |  |-- ValidarCpfStep.java<br>
+    |  |-- resources<br>
+    |  |  |-- io<br>
+    |  |  |  |-- cucumber<br>
+    |  |  |  |  |-- danilo<br>
+    |  |  |  |  |  |-- .gitkeep<br>
+    |  |  |  |  |  |-- validadorCpf.feature<br>
+  test.bat<br>
+  test.sh<br>
+</pre>
