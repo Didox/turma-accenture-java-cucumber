@@ -100,5 +100,8 @@ Framework responsável por traduzir uma linguagem humana em código Java<br>
 :heavy_check_mark: <b>Selenium</b><br>
 Framework responsável por fazer a integração do código java com a linguagem Gutking(Cucumber) abrindo o browser fazendo o teste de comportamento<br>
 
-
-
+## Como utilizar
+- Clone do projeto
+ ```bash
+git clone https://github.com/Didox/turma-accenture-java-cucumber.git
+ ```
