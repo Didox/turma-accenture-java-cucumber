@@ -146,31 +146,30 @@ test.bat
 
 ## Estrutura de arquivos
 
-driver
-   |-- chromedriver
-mvnw
-mvnw.cmd
-pom.xml
-src
-   |-- main
-   |   |-- java
-   |   |   |-- io
-   |   |   |   |-- cucumber
-   |   |   |   |   |-- danilo
-   |   |   |   |   |   |-- ValidadorCpf.java
-   |-- test
-   |   |-- java
-   |   |   |-- io
-   |   |   |   |-- cucumber
-   |   |   |   |   |-- .DS_Store
-   |   |   |   |   |-- danilo
-   |   |   |   |   |   |-- RunCucumberTest.java
-   |   |   |   |   |   |-- ValidarCpfStep.java
-   |   |-- resources
-   |   |   |-- io
-   |   |   |   |-- cucumber
-   |   |   |   |   |-- danilo
-   |   |   |   |   |   |-- .gitkeep
-   |   |   |   |   |   |-- validadorCpf.feature
-test.bat
-test.sh
+driver <br>
+   |-- chromedriver<br>
+mvnw<br>
+mvnw.cmd<br>
+pom.xml<br>
+src<br>
+   |-- main<br>
+   |   |-- java<br>
+   |   |   |-- io<br>
+   |   |   |   |-- cucumber<br>
+   |   |   |   |   |-- danilo<br>
+   |   |   |   |   |   |-- ValidadorCpf.java<br>
+   |-- test<br>
+   |   |-- java<br>
+   |   |   |-- io<br>
+   |   |   |   |-- cucumber<br>
+   |   |   |   |   |-- danilo<br>
+   |   |   |   |   |   |-- RunCucumberTest.java<br>
+   |   |   |   |   |   |-- ValidarCpfStep.java<br>
+   |   |-- resources<br>
+   |   |   |-- io<br>
+   |   |   |   |-- cucumber<br>
+   |   |   |   |   |-- danilo<br>
+   |   |   |   |   |   |-- .gitkeep<br>
+   |   |   |   |   |   |-- validadorCpf.feature<br>
+test.bat<br>
+test.sh<br>
