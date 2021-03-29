@@ -1,4 +1,12 @@
 # Descrição do desafio
+# Time: Didox
+Integrantes: <br>
+<ul>
+  <li>Danilo</li>
+  <li>Sheila</li>
+  <li>Lana</li>
+</ul>
+
 ### Criar uma aplicação Selenium com os seguintes casos de teste
 ### Caso de teste 1
 Acessar o site da accenture e aceitar os cookies do LGPD<br>
