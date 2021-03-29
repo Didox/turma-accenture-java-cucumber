@@ -25,28 +25,28 @@ Acessar o site da accenture a mostrar a lista de serviços<br>
 dado que eu estou no site da accenture<br>
 e clico no menu serviços<br>
 Então devo ver os serviços abaixo<br>
-  | Accenture Strategy |<br>
-  | Application Services |<br>
-  | Artificial Intelligence |<br>
-  | Automation |<br>
-  | Business Process Services |<br>
-  | Change Management |<br>
-  | Cloud |<br>
-  | Customer Experience |<br>
-  | Data & Analytics |<br>
-  | Ecosystem Partners |<br>
-  | Finance Consulting |<br>
-  | Industry X |<br>
-  | Infrastructure |<br>
-  | Marketing |<br>
-  | Mergers & Acquisitions (M&A) |<br>
-  | Operating Models |<br>
-  | Security |<br>
-  | Supply Chain Management |<br>
-  | Sustainability |<br>
-  | Technology Consulting |<br>
-  | Technology Innovation |<br>
-  | Zero Based Budgeting (ZBB) |<br>
+  [x] Accenture Strategy
+  [x] Application Services
+  [x] Artificial Intelligence
+  [x] Automation
+  [x] Business Process Services
+  [x] Change Management
+  [x] Cloud
+  [x] Customer Experience
+  [x] Data & Analytics
+  [x] Ecosystem Partners
+  [x] Finance Consulting
+  [x] Industry X
+  [x] Infrastructure
+  [x] Marketing
+  [x] Mergers & Acquisitions (M&A)
+  [x] Operating Models
+  [x] Security
+  [x] Supply Chain Management
+  [x] Sustainability
+  [x] Technology Consulting
+  [x] Technology Innovation
+  [x] Zero Based Budgeting (ZBB)
 
 <b>Cenário</b>: Clicar no serviço cloud<br>
 dado que eu estou no site da accenture<br>
