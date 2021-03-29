@@ -147,30 +147,23 @@ test.bat
 ## Estrutura de arquivos
 <pre>
   driver <br>
-      |-- chromedriver<br>
+      |-- chromedriver<br> -- Este é o arquivo do selenium webdriver, substitua este arquivo com a versão da sua maquina
   mvnw<br>
   mvnw.cmd<br>
   pom.xml<br>
   src<br>
-    |-- main<br>
-    |  |-- java<br>
-    |  |  |-- io<br>
-    |  |  |  |-- cucumber<br>
-    |  |  |  |  |-- danilo<br>
-    |  |  |  |  |  |-- ValidadorCpf.java<br>
     |-- test<br>
     |  |-- java<br>
     |  |  |-- io<br>
     |  |  |  |-- cucumber<br>
     |  |  |  |  |-- danilo<br>
-    |  |  |  |  |  |-- RunCucumberTest.java<br>
-    |  |  |  |  |  |-- ValidarCpfStep.java<br>
+    |  |  |  |  |  |-- RunCucumberTest.java<br> -- Arquivo que configura a inicialização do Java test
+    |  |  |  |  |  |-- ValidarCpfStep.java<br> -- Passos escritos em java com selenium abrindo o browser e testando a aplicação
     |  |-- resources<br>
     |  |  |-- io<br>
     |  |  |  |-- cucumber<br>
     |  |  |  |  |-- danilo<br>
-    |  |  |  |  |  |-- .gitkeep<br>
-    |  |  |  |  |  |-- validadorCpf.feature<br>
-  test.bat<br>
-  test.sh<br>
+    |  |  |  |  |  |-- validadorCpf.feature<br> -- Gherkin com os cenários de teste de acordo com o meu cliente
+  test.bat<br> -- Arquivo para rodar teste no Windows
+  test.sh<br> -- Arquivo para rodar teste no Unix
 </pre>
