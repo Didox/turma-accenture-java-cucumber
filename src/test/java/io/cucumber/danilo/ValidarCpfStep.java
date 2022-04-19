@@ -1,5 +1,6 @@
 package io.cucumber.danilo;
 
+import io.cucumber.java.an.E;
 import io.cucumber.java.pt.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -19,7 +20,7 @@ public class ValidarCpfStep {
     System.setProperty("webdriver.chrome.driver", "driver/chromedriver");
 
     browser = new ChromeDriver();
-    browser.get("http://localhost:8081/");
+    browser.get("http://localhost:8080/");
   }
 
   @Dado("digito um cpf válido {string}")
@@ -29,13 +30,21 @@ public class ValidarCpfStep {
 
     WebElement campoCpf = browser.findElement(By.name("cpf"));
     campoCpf.sendKeys(string);
+  }
 
+  @E("digito um cpf inválido {string}")
+  public void digito_um_cpf_invalido(String string) {
+    WebElement campoNome = browser.findElement(By.name("nome"));
+    campoNome.sendKeys("Danilo");
+
+    WebElement campoCpf = browser.findElement(By.name("cpf"));
+    campoCpf.sendKeys(string);
   }
 
   @Quando("eu clico no botão enviar")
   public void eu_clico_no_botao_enviar() {
-      WebElement campoCpf = browser.findElement(By.name("cpf"));
-      campoCpf.submit();
+      WebElement campoCpf = browser.findElement(By.className("btn-primary"));
+      campoCpf.click();
   }
 
   @Entao("devo ver uma mensagem de {string}")

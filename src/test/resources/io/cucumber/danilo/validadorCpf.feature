@@ -9,6 +9,6 @@ Funcionalidade: Validar CPF
 
   Cenario: CPF Inválido
     Dado que eu esteja na pagina de validação de cpf
-    E digito um cpf válido "129.360.810-69"
+    E digito um cpf inválido "129.360.810-69"
     Quando eu clico no botão enviar
     Entao devo ver uma mensagem de "Não validado com sucesso" para inválido
